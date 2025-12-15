@@ -6,7 +6,7 @@
 /*   By: juan-jof <juan-jof@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 03:12:30 by juan-jof          #+#    #+#             */
-/*   Updated: 2025/12/15 04:20:42 by juan-jof         ###   ########.fr       */
+/*   Updated: 2025/12/15 04:37:37 by juan-jof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ int	main(int argc, char **argv)
 	int	j = 0;
 	while (i < argc)
 	{
+		j = 0;
 		while (argv[i][j])
 		{
 			std::cout << (char)toupper(argv[i][j]);
